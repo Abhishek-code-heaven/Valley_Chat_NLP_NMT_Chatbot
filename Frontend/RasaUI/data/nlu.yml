@@ -1,0 +1,189 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - Hi, my name is
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: bot_name
+  examples: |
+    - What is your name?
+    - Tell me your name?
+    - What do they call you?
+    - Do you have a name?
+
+- intent: How_are_you
+  examples: |
+    - How are you?
+    - How do you feel?
+    - Are you ok?
+    - How you doin?
+    - Whats up?
+
+- intent: who_made_you
+  examples: |
+    - Who made you?
+    - How were your developed?
+    - Who created you?
+    - How were you created?
+    - Who designed you?
+
+- intent: joke
+  examples: |
+    - Do you know a joke?
+    - You are funny!
+    - Tell me something Funny
+    - Tell me a joke
+    - Say something funny
+    - Are you funny?
+
+- intent: love
+  examples: |
+    - Do you love me?
+    - I love you
+    - Can you love me?
+
+- intent: marry
+  examples: |
+    - Will you marry me?
+    - What do you thing about marriage
+    - Are you single?
+
+- intent: likepeople
+  examples: |
+    - Do you like people?
+
+- intent: hobby
+  examples: |
+    - Do you have a hobby?
+    - What hobbies do you have?
+    - Please tell your hobbies.
+  
+- intent: matrix
+  examples: |
+    - Are you part of the matrix
+    - Are you a Matrix character?
+
+- intent: cutebeautiful
+  examples: |
+    - Youre smart/beautiful/intelligent?
+    - Are you beautiful?
+    - How intelligent are you?
+    - You are clever.
+    - Tell me about your personality.
+
+- intent: feedback
+  examples: |
+    - I would like to give feeback?
+    - I want to speak to a human / live agent / customer service
+
+- intent: give_time
+  examples: |
+    - can you tell me what time it is
+    - tell me the time
+    - got the time
+    - what is the date today
+    - what day is it
+    - what time is it
+
+- intent: give_weather
+  examples: |
+    - please tell me the temperature
+    - What is the weather like today
+    - What is the temperature
+    - Please tell the forecast for today
+
+- intent: something_interesting
+  examples: |
+    - tell me something interesting
+    - say something interesting
+
+
+
+

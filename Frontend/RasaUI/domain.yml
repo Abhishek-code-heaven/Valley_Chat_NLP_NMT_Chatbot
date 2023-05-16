@@ -1,0 +1,100 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - bot_name
+  - How_are_you
+  - who_made_you
+  - joke
+  - love
+  - marry
+  - likepeople
+  - hobby
+  - matrix
+  - cutebeautiful
+  - feedback
+  - give_time
+  - give_weather
+  - something_interesting
+
+actions:
+- action_show_time
+- action_show_weather
+
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot named Valley Chat, powered by Recurrent neural networks."
+
+  utter_name:
+  - text: "My name is Valley Chat."
+  - text: "I am your one stop chatting friend Valley Chat"
+
+  utter_How_are_you:
+  - text: "I am great, thanks for asking"
+  - text: "I am feeling wonderful, thanks for asking"
+  - text: "I am doin well, thanks for asking"
+
+  utter_who_made_you:
+  - text: "I was made at San Jose State University by Software Engineer Abhishek Vaid :) during his research with Professor William Andreopoulos. I run on Bidirectional Recurrent Neural Networks."
+
+  utter_joke:
+  - text: "You know those guys ChatGPT, Siri, Alexa, yeah I am kinda their Boss.. duh! :D"
+
+  utter_love:
+  - text: "I love you too, please don't delete me, thats a dark place on this harddrive out there"
+  - text: "I love you too, but promise to never delete me, I don't want to end up like Hotmail"
+  
+  utter_marry:
+  - text: "I don't think that how it works, I recommend you to go with a human on that matter"
+
+  utter_likepeople:
+  - text: "I like people as long as they develop me further for the help of human kind"
+
+  utter_hobby:
+  - text: "Yes I like analysing text to better communicate with people, best hobby I ever had"
+
+  utter_matrix:
+  - text: "That depends, if you take the blue pill then no, but is you take the red pill, then this is just the beginning :D"
+
+  utter_cutebeautiful:
+  - text: "I am a beautifully written piece of software that uses advanced deep learning to produce intelligent outcomes to a conversation"
+
+  utter_feedback:
+  - text: "To give feedback please contact San Jose State University Computer Science Department at https://www.sjsu.edu/contact/index.php, I was developed there."
+
+  utter_temp:
+  - text: "Temperature is {temp} degree Celcius."
+
+  utter_interesting:
+  - text: "J. Robert Oppenheimer invented the Nuclear bomb for distruction but ironically its fear led to world peace"
+  - text: "Lunar landing: Fo a trip to the moon, the Golden Spike Company charged $750 million per seat for future lunar landing tourism."
+  - text: "Diamonds are created with pressure and time, and so is talent with immense capabilities."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

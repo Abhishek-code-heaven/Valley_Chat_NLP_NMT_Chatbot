@@ -1,0 +1,128 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: name
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bot_name
+  - action: utter_name
+
+- story: Howareyou
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: How_are_you
+  - action: utter_How_are_you
+
+- story: who made you
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: who_made_you
+  - action: utter_who_made_you
+
+- story: joke
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: joke
+  - action: utter_joke
+
+- story: love
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: love
+  - action: utter_love
+
+- story: marry
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: marry
+  - action: utter_marry
+
+- story: likepeople
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: likepeople
+  - action: utter_likepeople
+  
+- story: hobby
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hobby
+  - action: utter_hobby
+
+- story: matrix
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: matrix
+  - action: utter_matrix
+
+- story: cutebeautiful
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cutebeautiful
+  - action: utter_cutebeautiful
+
+- story: feedback
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: feedback
+  - action: utter_feedback
+
+- story: path about time
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: give_time
+  - action: action_show_time
+
+- story: path about weather
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: give_weather
+  - action: action_show_weather
+  
+- story: something interesting
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: something_interesting
+  - action: utter_interesting
