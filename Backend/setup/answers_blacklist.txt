@@ -1,0 +1,8 @@
+'$
+^\[ \]$
+(?i) I ' m$
+(?i) I$
+( |^)You$
+(?i)( |^)don$
+(?i)your$
+downvoted
